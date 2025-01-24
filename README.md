@@ -1,3 +1,10 @@
 # Octave_scientific_calculator
 
 # some function still not added
+
+How to Use:
+
+    1.Save this code to a .m file (e.g., scientific_calculator.m).
+    2.Run the script in Octave by typing scientific_calculator in the Octave command window.
+    3.Click buttons to input expressions or type directly into the text box.
+    4.Press = to evaluate the expression.
