@@ -9,11 +9,12 @@ function scientific_Calculator
                          'FontSize', 14, 'Position', [20, 530, 360, 40]);
 
   % Buttons and their labels
-  buttons = {'7', '8', '9', '/', 'sin';
-             '4', '5', '6', '*', 'cos';
-             '1', '2', '3', '-', 'tan';
-             '0', '.', '=', '+', 'sqrt';
-             '(', ')', 'C', '^', 'log10'};
+  buttons = { 'sin', 'cos', 'tan','log10', 'pi';
+              '7', '8', '9', '.', 'C';
+             '4', '5', '6', '*', '/';
+             '1', '2', '3', '+', '-';
+             '0', '.', '10', '%', 'sqrt';
+             '(', ')', '^', '=', 'C'};
 
   % Callback function for buttons
   function button_callback(src, ~)
@@ -36,11 +37,12 @@ function scientific_Calculator
   end
 
   % Create buttons
-  for i = 1:5
+  for i = 1:6
     for j = 1:5
       uicontrol('Style', 'pushbutton', 'String', buttons{i, j}, ...
                 'FontSize', 12, 'Position', [20 + (j - 1) * 75, ...
                 500 - i * 75, 70, 70], ...
+                'BackgroundColor', [0, 0, 1], ... % Light green color
                 'Callback', @button_callback);
     end
   end
