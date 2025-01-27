@@ -10,11 +10,11 @@ function scientific_Calculator
 
   % Buttons and their labels
   buttons = { 'sin', 'cos', 'tan','log10', 'pi';
-              '7', '8', '9', '.', 'C';
+              '7', '8', '9', '^2', 'C';
              '4', '5', '6', '*', '/';
              '1', '2', '3', '+', '-';
-             '0', '.', '10', '%', 'sqrt';
-             '(', ')', '^', '=', 'C'};
+             '0', '00', '.', 'exp', 'sqrt';
+             '(', ')', '^', 'e', '='};
 
   % Callback function for buttons
   function button_callback(src, ~)
