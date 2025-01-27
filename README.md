@@ -16,3 +16,6 @@ some issues
     3.(^2) is square function
     4.when error is occured , remove error string on text box and enter again
     
+
+screenshot of octave
+    ![alt text](image.png)
