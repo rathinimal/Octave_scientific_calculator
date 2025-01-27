@@ -10,12 +10,12 @@ How to Use:
     4.Press = to evaluate the expression.
 
 
-some issues
+Some issues
     1.sqrt means square root
     2.to calculate angles in radians should use pi conversion
     3.(^2) is square function
     4.when error is occured , remove error string on text box and enter again
     
 
-screenshot of octave
+Screenshot of octave
     ![alt text](image.png)
