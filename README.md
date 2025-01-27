@@ -9,6 +9,7 @@
 
 
 2.Some issues:
+
     1.Sqrt means square root.
     2.To calculate angles in radians should use pi conversion.
     3.(^2) is square function.
